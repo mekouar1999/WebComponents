@@ -1,0 +1,40 @@
+.audio {
+    width: 80%;
+    background-color: white;
+    border: 1px solid gray;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+body{
+    background-color: rgb(203, 203, 203);
+}
+.audio > div {
+    width: 100%;
+    background-color: azure;
+    border-bottom: 1px solid lightgray;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.audio > button {
+    margin: 10px;
+    width: 80px;
+    padding: 5px;
+    font-family: consolas;
+    font-size: 16px;
+    border-radius: 505px;
+    box-shadow: 2px 2px 5px gray;
+    cursor: pointer;
+}
+
+.audio > button:hover {
+    color: blue;
+    background-color: beige;
+}
